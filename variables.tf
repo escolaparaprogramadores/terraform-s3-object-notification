@@ -18,7 +18,7 @@ variable "policy" {
 variable "force_destroy" {
   description = "Whether or not to force destroy the bucket"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "tags" {
